@@ -1,4 +1,18 @@
-[
+[    {
+        "name": "Paleolitico",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Warrior",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+   
     // Source: the fandom, so take these with a grain of salt
     // I also did some testing in the official version, but by far not all
 
