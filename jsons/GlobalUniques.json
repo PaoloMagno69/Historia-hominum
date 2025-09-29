@@ -2,8 +2,8 @@
 	"name": "Global uniques",
 	"uniques": [
 
-"Triggers a [Menhir degli antenati] event <for [Major] Civilizations> <upon turn end> <after turn number [10]> <before turn number [11]>",
-"Triggers a [NO_scienza_barbari] event <for [Major] Civilizations> <upon turn end> <after turn number [11]> <before turn number [12]>"
+"Triggers a [Menhir della nuova alba] event <for [Major] Civilizations> <upon turn end> <after turn number [10]> <before turn number [11]>",
+"Triggers a [Caccia e raccolta] event <for [Major] Civilizations> <upon turn end> <after turn number [11]> <before turn number [12]>"
 
 	]
 }
