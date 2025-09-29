@@ -1,4 +1,8 @@
 [
+//* Paleolitico (12.000 – 8.000 a.C.), Caccia e raccolta, Agricoltura (Agriculture), Ceramica (Pottery), Allevamento (Animal Husbandry), Tiro con l’arco (Archery)
+//* Neolitico ed era dei metalli da: ~8.000 a.C. – ~800 a.C. Estrazione mineraria (Mining), Cattura trappole (Trapping), Ruota (The Wheel)
+Muratura (Masonry), Lavorazione del bronzo (Bronze Working), Navigazione (Sailing), Calendario (Calendar), Scrittura (Writing)
+/** Era classica 800 a.C. – ~500 d.C. stesse tecnologie che ci sono ora
   	{
 		"columnNumber": 0,
 		"era": "Paleolitico",
@@ -9,14 +13,14 @@
 			{
 				"name": "Caccia e raccolta",
 				"row": 6,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"quote": "'I primi uomini sopravvivono cacciando animali selvatici e raccogliere frutti, radici e piante commestibili: una vita in armonia con la natura ma anche molto incerta",
 				"uniques": ["Starting tech"]
 			}
 		]
 	},
 	{
 		"columnNumber": 1,
-		"era": "Ancient era",
+		"era": "Paleolitico",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -30,8 +34,8 @@
 		]
 	},
 	{
-		"columnNumber": 1,
-		"era": "Ancient era",
+		"columnNumber": 2,
+		"era": "Paleolitico",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -55,20 +59,28 @@
 				"prerequisites": ["Agriculture"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
-			},
+			}
+		]
+	},
+    {
+		"columnNumber": 3,
+		"era": "Neolitico ed era dei metalli",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
 			{
 				"name": "Mining",
-				"row": 9,
-				"prerequisites": ["Agriculture"],
+				"row": 6,
+				"prerequisites": ["Pottery","Animal Husbandry","Archery"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
-
 		]
 	},
 	{
-		"columnNumber": 2,
-		"era": "Ancient era",
+		"columnNumber": 4,
+		"era": "Neolitico ed era dei metalli",
 		"techCost": 55,
 		"buildingCost": 75,
 		"wonderCost": 185,
@@ -124,7 +136,7 @@
 		]
 	},
 	{
-		"columnNumber": 3,
+		"columnNumber": 5,
 		"era": "Classical era",
 		"techCost": 105,
 		"buildingCost": 100,
@@ -161,7 +173,7 @@
 		]
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 6,
 		"era": "Classical era",
 		"techCost": 175,
 		"buildingCost": 100,
@@ -203,7 +215,7 @@
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 275,
 		"buildingCost": 120,
@@ -239,7 +251,7 @@
 		]
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 8,
 		"era": "Medieval era",
 		"techCost": 485,
 		"buildingCost": 160,
@@ -290,7 +302,7 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 9,
 		"era": "Renaissance era",
 		"techCost": 780,
 		"buildingCost": 200,
@@ -334,7 +346,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 10,
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"buildingCost": 250,
@@ -376,7 +388,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 11,
 		"era": "Industrial era",
 		"techCost": 1600,
 		"buildingCost": 300,
@@ -426,7 +438,7 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 12,
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
@@ -462,7 +474,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 13,
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
@@ -505,7 +517,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 14,
 		"era": "Modern era",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -540,7 +552,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 15,
 		"era": "Atomic era",
 		"techCost": 5100,
 		"buildingCost": 500,
@@ -575,7 +587,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 16,
 		"era": "Atomic era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -609,7 +621,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 17,
 		"era": "Information era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -657,7 +669,7 @@
 	},
 
 	{
-		"columnNumber": 16,
+		"columnNumber": 18,
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -699,7 +711,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 19,
 		"era": "Future era",
 		"techCost": 9500,
 		"buildingCost": 750,
