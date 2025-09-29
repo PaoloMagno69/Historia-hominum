@@ -35,15 +35,16 @@
         "dealDuration": 25,
         "startYear": -12000,
         "turns": [
-          {"yearsPerTurn": 200, "untilTurn": 40},   // 12000 → 4000 a.C. (pre-era rapida)
-    {"yearsPerTurn": 60,  "untilTurn": 90},   // uguale all’originale da qui in poi
-    {"yearsPerTurn": 40,  "untilTurn": 120},
-    {"yearsPerTurn": 30,  "untilTurn": 140},
-    {"yearsPerTurn": 20,  "untilTurn": 170},
-    {"yearsPerTurn": 10,  "untilTurn": 195},
-    {"yearsPerTurn":  5,  "untilTurn": 235},
-    {"yearsPerTurn":  2,  "untilTurn": 300},
-    {"yearsPerTurn":  1,  "untilTurn": 370}
+           {"yearsPerTurn": 120, "untilTurn": 30},   // fase iniziale meno estrema
+    {"yearsPerTurn":  80, "untilTurn": 60},   // transizione più graduale
+    {"yearsPerTurn":  60, "untilTurn": 90},   // inizio del ritmo "antico" (meno brusco)
+    {"yearsPerTurn":  40, "untilTurn": 120},
+    {"yearsPerTurn":  30, "untilTurn": 140},
+    {"yearsPerTurn":  20, "untilTurn": 170},
+    {"yearsPerTurn":  10, "untilTurn": 195},
+    {"yearsPerTurn":   5, "untilTurn": 235},
+    {"yearsPerTurn":   2, "untilTurn": 300},
+    {"yearsPerTurn":   1, "untilTurn": 370}
            ]
     },
     {
@@ -62,16 +63,18 @@
         "religiousPressureAdjacentCity": 6,
         "peaceDealDuration": 10,
         "dealDuration": 30,
-        "startYear": -4000,
+        "startYear": -12000,
         "turns": [
-            {"yearsPerTurn":  40, "untilTurn": 75},
-            {"yearsPerTurn":  25, "untilTurn": 135},
-            {"yearsPerTurn":  20, "untilTurn": 160},
-            {"yearsPerTurn":  10, "untilTurn": 210},
-            {"yearsPerTurn":   5, "untilTurn": 270},
-            {"yearsPerTurn":   2, "untilTurn": 320},
-            {"yearsPerTurn":   1, "untilTurn": 440},
-            {"yearsPerTurn": 0.5, "untilTurn": 500}
+               {"yearsPerTurn": 120, "untilTurn": 30},   // -12000 → -8400
+    {"yearsPerTurn":  80, "untilTurn": 60},   // -8400 → -4000
+    {"yearsPerTurn":  40, "untilTurn": 115},  // da qui in poi ritmo originale
+    {"yearsPerTurn":  25, "untilTurn": 175},
+    {"yearsPerTurn":  20, "untilTurn": 200},
+    {"yearsPerTurn":  10, "untilTurn": 250},
+    {"yearsPerTurn":   5, "untilTurn": 310},
+    {"yearsPerTurn":   2, "untilTurn": 360},
+    {"yearsPerTurn":   1, "untilTurn": 480},
+    {"yearsPerTurn": 0.5, "untilTurn": 540}
         ]
     },
     {
@@ -90,15 +93,19 @@
         "religiousPressureAdjacentCity": 4,
         "peaceDealDuration": 15,
         "dealDuration": 45,
-        "startYear": -4000,
+        "startYear": -12000,
         "turns": [
-            {"yearsPerTurn":  25, "untilTurn": 140},
-            {"yearsPerTurn":  15, "untilTurn": 230},
-            {"yearsPerTurn":  10, "untilTurn": 270},
-            {"yearsPerTurn":   5, "untilTurn": 360},
-            {"yearsPerTurn":   2, "untilTurn": 430},
-            {"yearsPerTurn":   1, "untilTurn": 530},
-            {"yearsPerTurn": 0.5, "untilTurn": 750}
+              {"yearsPerTurn": 120, "untilTurn": 30},   // fase iniziale smussata
+    {"yearsPerTurn":  80, "untilTurn": 60},   // transizione
+    {"yearsPerTurn":  60, "untilTurn": 90},   // transizione
+    {"yearsPerTurn":  40, "untilTurn": 120},
+    {"yearsPerTurn":  25, "untilTurn": 230},  // 140 + 90
+    {"yearsPerTurn":  15, "untilTurn": 320},  // 230 + 90
+    {"yearsPerTurn":  10, "untilTurn": 360},  // 270 + 90
+    {"yearsPerTurn":   5, "untilTurn": 450},  // 360 + 90
+    {"yearsPerTurn":   2, "untilTurn": 520},  // 430 + 90
+    {"yearsPerTurn":   1, "untilTurn": 620},  // 530 + 90
+    {"yearsPerTurn":  0.5, "untilTurn": 840}  // 750 + 90
         ]
     },
     {
@@ -117,16 +124,19 @@
         "religiousPressureAdjacentCity": 2,
         "peaceDealDuration": 30,
         "dealDuration": 90,
-        "startYear": -4000,
+        "startYear": -12000,
         "turns": [
-            {"yearsPerTurn":   15,     "untilTurn":  100},
-            {"yearsPerTurn":   10,     "untilTurn":  400},
-            {"yearsPerTurn":    5,     "untilTurn":  570},
-            {"yearsPerTurn":    2,     "untilTurn":  771},
-            {"yearsPerTurn":    1,     "untilTurn":  900},
-            {"yearsPerTurn":  0.5,     "untilTurn": 1080},
-            {"yearsPerTurn": 0.25,     "untilTurn": 1344},
-            {"yearsPerTurn": 0.083333, "untilTurn": 1500}
+                {"yearsPerTurn": 120, "untilTurn": 30},   // fase iniziale smussata
+    {"yearsPerTurn":  80, "untilTurn": 60},   // transizione
+    {"yearsPerTurn":  60, "untilTurn": 90},   // transizione
+    {"yearsPerTurn":  15, "untilTurn": 190},  // 100 + 90
+    {"yearsPerTurn":  10, "untilTurn": 490},  // 400 + 90
+    {"yearsPerTurn":   5, "untilTurn": 660},  // 570 + 90
+    {"yearsPerTurn":   2, "untilTurn": 861},  // 771 + 90
+    {"yearsPerTurn":   1, "untilTurn": 990},  // 900 + 90
+    {"yearsPerTurn":  0.5, "untilTurn": 1170},// 1080 + 90
+    {"yearsPerTurn": 0.25, "untilTurn": 1434},// 1344 + 90
+    {"yearsPerTurn": 0.083333, "untilTurn": 1590} // 1500 + 90
         ]
     }
 ]
