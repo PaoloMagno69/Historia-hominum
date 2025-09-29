@@ -1,1 +1,9 @@
+{
+	"name": "Global uniques",
+	"uniques": [
 
+"Triggers a [Menhir della nuova alba"] event <for [Major] Civilizations> <upon turn end> <after turn number [10]> <before turn number [11]>",
+"Triggers a [Caccia e raccolta] event <for [Major] Civilizations> <upon turn end> <after turn number [11]> <before turn number [12]>",
+
+	]
+}
