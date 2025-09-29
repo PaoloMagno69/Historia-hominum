@@ -1,1 +1,27 @@
+[
 
+ 	{
+    "name": "Menhir della nuova alba",
+    "text": "I nostri  avi sono sopravvissuti a tempi in cui era sempre inverno ed il sole sembrava non volesse sorgere mai, sapremo onorare i loro sacrifici?!",
+    "choices": [
+        {
+            "text": "L'era glaciale è finita e la Terra è oggi un paradiso da esplorare!",
+            "uniques": [
+                "Gain a free [Menhir della nuova alba] [in capital] <for [Major] Civilizations> <hidden from users>",
+                      ]
+        }
+    ]
+}, 
+{
+    "name": "Caccia e raccolta",
+    "text": "Queste terre sono ricche di selvaggina, frutti, tuberi, semi e germogli di ogni genere!",
+    "choices": [
+        {
+            "text": "Potremo prosperare e far crescere il nostro popolo, chissà cosa ci riserva il futuro!",
+            "uniques": [
+                "[-100]% [Science] [in all cities] <for [Major] Civilizations> <for [75] turns> <hidden from users>"    
+            ]
+        }
+    ]
+}  
+ ]
