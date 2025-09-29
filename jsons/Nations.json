@@ -3,35 +3,35 @@
         "name": "Barbarians della steppa",
         "outerColor": [102, 51, 0],
         "innerColor": [204, 102, 0],
-        "uniques": ["Can only heal by pillaging"],
+        "uniques": [Military] units gain the [Barbarian Unique] promotion", "[+28] Unit Supply"],
         "spawnTerrain": ["Grassland", "Plains"]
     },
     {
         "name": "Barbarians delle nevi",
         "outerColor": [200, 200, 200],
         "innerColor": [255, 255, 255],
-        "uniques": ["Can only heal by pillaging"],
+        "uniques": [Military] units gain the [Barbarian Unique] promotion", "[+28] Unit Supply"],
         "spawnTerrain": ["Tundra", "Snow"]
     },
     {
         "name": "Barbarians dei deserti",
         "outerColor": [210, 180, 140],
         "innerColor": [244, 164, 96],
-        "uniques": ["Can only heal by pillaging"],
+        "uniques": [Military] units gain the [Barbarian Unique] promotion", "[+28] Unit Supply"],
         "spawnTerrain": ["Desert"]
     },
     {
         "name": "Barbarians delle pianure",
         "outerColor": [34, 139, 34],
         "innerColor": [50, 205, 50],
-        "uniques": ["Can only heal by pillaging"],
+        "uniques": [Military] units gain the [Barbarian Unique] promotion", "[+28] Unit Supply"],
         "spawnTerrain": ["Plains", "Grassland"]
     },
     {
         "name": "Barbarians delle coste",
         "outerColor": [0, 0, 128],
         "innerColor": [65, 105, 225],
-        "uniques": ["Can only heal by pillaging"],
+        "uniques": [Military] units gain the [Barbarian Unique] promotion", "[+28] Unit Supply"],
         "spawnTerrain": ["Coast", "Ocean"]
     }
 ]
