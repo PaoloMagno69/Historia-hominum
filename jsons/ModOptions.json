@@ -1,1 +1,15 @@
-
+{
+    "disableDefaultEras": true,
+    "orderedEras": [
+        "Paleolitico",
+        "Neolitico ed era dei metalli",
+        "Classical era",
+        "Medieval era",
+        "Renaissance era",
+        "Industrial era",
+        "Modern era",
+        "Atomic era",
+        "Information era",
+        "Future era"
+    ]
+}
