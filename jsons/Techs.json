@@ -105,14 +105,14 @@
 			{
 				"name": "Trapping",
 				"row": 5,
-				"prerequisites": ["Animal Husbandry"],
+				"prerequisites": ["Mining"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
 				"name": "The Wheel",
 				"row": 7,
-				"prerequisites": ["Animal Husbandry", "Archery"],
+				"prerequisites": ["Mining"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
