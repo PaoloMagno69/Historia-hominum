@@ -1,1 +1,10 @@
-
+[
+	{
+		"name": "Menhir della nuova alba",
+		"cost": 80,
+    "culture": 1,
+	    "uniques": ["Unbuildable"],
+		"isNationalWonder": true,
+	}
+	
+  ]
