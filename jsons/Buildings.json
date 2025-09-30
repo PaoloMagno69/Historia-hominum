@@ -5,6 +5,15 @@
     "culture": 1,
 	    "uniques": ["Unbuildable"],
 		"isNationalWonder": true,
-	}
-	
+	},
+	{
+        "name": "Naturia", //  Easter egg per Anto
+        "isWonder": true,
+	     "civilopediaText": [ {"text": "Naturia fornisce cibo, cultura, produzioen e un punto ingegnere."}],
+	     "culture" : 1,
+	     "greatPersonPoints": { "Great Engineer": 1 },
+         "uniques": [ "[+1 Food, +1 Production, +1 Happiness] [in this city]"],
+        "requiredTech": "Agriculture",
+        "quote": "'Naturia non è solo cibo, Naturia è benessere e cultura.' - Paolo"
+    }
   ]
