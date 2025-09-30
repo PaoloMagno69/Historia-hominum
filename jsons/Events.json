@@ -27,5 +27,14 @@
             ]
         }
     ]
-}  
+},
+     {
+      "name": "Invasione Barbarica",
+      "text": "In questi tempi bui vige la legge del più forte e razzie e saccheggi sono eventi frequentissimi!",
+		"triggerOnce": true,
+      "choices": [
+        { "text": "Prepara la difesa!",
+          "uniques": ["Rebel units may spawn <for [75] turns>", "[-10 Happiness] [in all cities] <for [50] turns>"]}
+              ]
+    }
  ]
