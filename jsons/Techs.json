@@ -140,7 +140,7 @@
 		"techs": [
 			{
 				"name": "Optics",
-				"cost": 85,
+				"cost": 280,
 				"row": 1,
 				"prerequisites": ["Sailing"],
 				"uniques": ["Enables embarkation for land units"],
@@ -171,7 +171,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Classical era",
-		"techCost": 400,
+		"techCost": 581,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
