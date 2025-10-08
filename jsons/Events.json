@@ -19,8 +19,7 @@
         {
             "text": "Potremo prosperare e far crescere il nostro popolo, chissà cosa ci riserva il futuro!",
             "uniques": [
-                "[-100]% [Science] [in all cities] <for [Major] Civilizations> <for [75] turns> <hidden from users>",
-              "[-95]% [Food] [in all cities] <for [Major] Civilizations> <for [75] turns> <hidden from users>",
+                "[-95]% [Food] [in all cities] <for [Major] Civilizations> <for [75] turns> <hidden from users>",
                 "[-95]% [Gold] [in all cities] <for [Major] Civilizations> <for [75] turns> <hidden from users>",
                 "[-95]% [Culture] [in all cities] <for [Major] Civilizations> <for [75] turns> <hidden from users>",
                 "[-95]% [Production] [in all cities] <for [Major] Civilizations> <for [75] turns> <hidden from users>"
@@ -34,7 +33,7 @@
 		"triggerOnce": true,
       "choices": [
         { "text": "Prepara la difesa!",
-          "uniques": ["Rebel units may spawn <for [75] turns> <hidden from users>", "[-10 Happiness] [in all cities] <for [50] turns> <hidden from users>"]}
+          "uniques": ["Rebel units may spawn <for [75] turns> <hidden from users>", "[-10 Happiness] [in all cities] <for [20] turns> <hidden from users>"]}
               ]
     }
  ]
