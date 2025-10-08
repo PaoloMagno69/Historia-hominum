@@ -8,6 +8,7 @@
 	},
 	{
         "name": "Naturia", //  Easter egg per Anto
+		"cost": 80,
         "isWonder": true,
 	     "civilopediaText": [ {"text": "Naturia fornisce cibo, cultura, produzioen e un punto ingegnere."}],
 	     "culture" : 1,
