@@ -1,5 +1,6 @@
 {
-    "disableDefaultEras": true,
+    "isBaseRuleset": true,
+	"disableDefaultEras": true,
     "orderedEras": [
         "Paleolitico",
         "Neolitico ed era dei metalli",
