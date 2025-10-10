@@ -11,5 +11,8 @@
         "Atomic era",
         "Information era",
         "Future era"
-    ]
+    ],
+    "constants": {
+		"maxXPfromBarbarians": 10000 /* Unlimited promotions of XP from barbarians.
+	}
 }
