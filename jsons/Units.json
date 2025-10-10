@@ -1,2 +1,47 @@
-
+[
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"upgradesTo": "Wayfarer",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Wayfarer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 20,
+		"range": 1,
+		"cost": 250,
+		"requiredTech" : "Scientific Theory",
+		"uniques": ["Invisible to non-adjacent units", "[+1] Sight"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Suicider",
+		"unitType": "Armored",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 32,
+		"rangedStrength": 32,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "Atomic Theory",
+		"uniques": [
+			"[+400]% Strength <vs cities> <when attacking>", 
+			"[-40]% Strength <vs [Military] units> <when defending>",
+			"Can only attack [City] units", 
+			"Self-destructs when attacking",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [5]",
+		],
+		"attackSound": "shot"
+	}
+]
   
